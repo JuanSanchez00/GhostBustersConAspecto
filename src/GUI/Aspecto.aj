@@ -1,3 +1,5 @@
+package GUI;
+
 import Juego.Juego;
 
 public aspect Aspecto {
@@ -7,6 +9,6 @@ public aspect Aspecto {
 
 
 	after() : premio(){
-      System.out.println("Se creó un premio.");
+      System.out.println("Se creÃ³ un premio.");
 	}
 }
